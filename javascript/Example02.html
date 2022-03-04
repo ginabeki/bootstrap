@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function bodyload() {
+        document.getElementById("hi").src =
+          "https://ic1.maxabout.us/autos/tw_india//S/2021/1/suzuki-gixxer-sf-glass-sparkle-black.jpg";
+        document.getElementById("txtRegister").value = "Register";
+      }
+    </script>
+  </head>
+  <body onload="bodyload()">
+    <div>
+      <img id="hi" width="300" height="300" border="1" />
+    </div>
+    <form action="">
+      Name: <input type="text" id="textName" />
+      <input type="button" id="txtRegister" />
+    </form>
+  </body>
+</html>
